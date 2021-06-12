@@ -1,9 +1,15 @@
 {% extends 'base.html' %}
 
 {% load static %}
+
 {% block main %}
-<h1 class="header">エントリーページ</h1>
-<h2>タケノコ派</h2>
-<h2>キノコ派</h2>
-<h2>どちらでもない</h2>
+<h1 class="header">エントリー</h1>
+<p>あなたの派閥は？</p>
+<div>
+  <ul>
+    <li><a href="/takenoko">タケノコ派</a></li>
+    <li><a href="/kinoko">キノコ派</a></li>
+    <li><a href="/whichever">どちらでもない</a></li>
+  </ul>
+</div>
 {% endblock%}
