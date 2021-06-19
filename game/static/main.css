@@ -1,3 +1,73 @@
 .header {
   background-color: red;
 }
+
+header{
+  margin: 30px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.border-solid{
+  border: none;
+  background-color: rgb(190, 108, 108);
+  margin: 3em auto;
+  width: 500px;
+  height: 700px;
+  position: relative;
+  padding: 2em;
+}
+
+body{
+  background-color: brown;
+}
+
+.border-takenoko{
+  border: none;
+  background-color: rgb(186, 238, 134);
+  padding-top: 10px;
+  width: 180px;
+  height: 270px;
+  float: left;
+  margin-bottom: 20px;
+}
+
+
+.border-kinoko{
+  border: none;
+  background-color: rgb(238, 226, 158);
+  padding-top: 10px;
+  width: 180px;
+  height: 270px;
+  margin-bottom: 20px;
+}
+
+
+.border-takenoko button{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+img{
+  border: none;
+  margin-bottom: 100px;
+}
+
+.takenoko-picture{
+  background-color: rgb(186, 238, 134);
+}
+
+.kinoko-picture{
+  background-color: rgb(238, 226, 158);
+}
+
+.three-button{
+  position: relative;
+  margin-top: 100px;
+}
+
+.play-title{
+  text-align: center;   
+}
