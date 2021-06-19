@@ -19,3 +19,15 @@ class KinokoGameView(TemplateView):
 
 class EndView(TemplateView):
     template_name = 'end.html'
+
+
+class HowToPlayView(TemplateView):
+    template_name = 'how_to_play.html'
+
+
+class RankingView(TemplateView):
+    template_name = 'ranking.html'
+
+
+class ResultView(TemplateView):
+    template_name = 'result.html'
