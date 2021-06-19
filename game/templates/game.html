@@ -1,12 +1,19 @@
 {% extends 'base.html' %}
 
+{% load static %}
 {% block main %}
-<h1>ゲームページ</h1>
-<h2>やりましょう</h2>
+<h1>きのこ タケノコテスト戦争!</h1>
+  <h2>制限時間: 15秒</h2>
+  <div class="game-wrapper">
+    <h1 class="score" id="score">0</h1>
+    <h2 id="game-status">Ready?</h2>
+    <input id="start-game" class="start-game-button" type='button' value="スタート" onclick="gameStart()">
+    <input id="eat-more" class="start-game-button" type='button' value="もっと食べる" onclick="increaseFoods()">
 
-{% block takenoko %}
+    <div id ="canvas"></div>
 
+  </div>
+  <div>
+    <input type="submit" value='結果を送信する' name="result">
+  </div>
 {% endblock %}
-
-
-{% endblock%}
