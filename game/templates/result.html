@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>たけのこきのこ戦争</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <div class="border-solid">
+        <div class="container-sm">
+            <p>たけのこきのこ戦争</p>
+            <h1>結果発表</h1>
+      
+
+          <div class="container-sm">
+              <div class="takenoko-picture">
+                  <img src="https://1.bp.blogspot.com/-eme6mXU1fN0/W8hDqW1o2ZI/AAAAAAABPeg/wrzinrwWGKQ40dPfhPpaXmSKmnRogJ81QCLcBGAs/s800/character_takenoko.png" class="rounded float-start" alt="たけのこ" width="150px" height="150px">
+              </div>
+
+              <div class="kinoko-picture">
+                  <img src="https://3.bp.blogspot.com/-SM2FKN6pNMM/W8hDqITydSI/AAAAAAABPec/jO2ycWVDZE08IHgxpQMW4iRxdyLi_SzTQCLcBGAs/s800/character_kinoko.png" class="rounded float-end" alt="きのこ" width="150" height="150">
+              </div>
+          </div>
+
+          <div class="d-grid gap-2 col-6 mx-auto">
+                  <a class="btn btn-danger" role="button" href="/entry">スタート</a>
+                  <a class="btn btn-primary" role=“button” href="/howtoplay">遊び方</a>
+                  <a class="btn btn-primary" role=“button” href="/ranking">ランキング</a>
+          </div>
+      </div>
+    </div>
+</body>
+</html>
